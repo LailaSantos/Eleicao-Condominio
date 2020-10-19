@@ -1,9 +1,6 @@
-# Eleicao-Condominio
-
-
 
 ## Eleição de Condomínio
-Esse é o projeto final da matéria de web 3, ele funcionou e ficou bem bonitinho e resolvi colocar aqui...
+Esse é o projeto final da matéria de web 3, ele funcionou e ficou bem bonitinho, resolvi colocar aqui...
 
 ## Tecnologias usadas :rocket: 
 
