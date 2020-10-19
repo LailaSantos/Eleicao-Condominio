@@ -12,7 +12,7 @@ Esse é o projeto final da matéria de web 3, ele funcionou e ficou bem bonitinh
 - Bootstrap
 - Bootsnipp
 
-- Foi o pacote todo das coisas do Java, não sou muito fã de Java, foi isso, daí usei o bootstrap e bootsnipp. 
+### Foi o pacote todo das coisas do Java, não sou muito fã de Java, foi isso.
 
 ## Pra rodar :sparkles:
 
