@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Bootsrap 4 CDN-->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+
+<!--Fontawesome CDN-->
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+	integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	crossorigin="anonymous">
+
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+	rel="stylesheet" id="bootstrap-css">
+<script
+	src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script
+	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+	rel="stylesheet">
+
+<style>
+body {
+	background: #c8e4f4;
+	font-family: 'Poppins', sans-serif;
+}
+
+.fa-vcard:before, .fa-address-card:before {
+	content: "\f2bb";
+	font-size: 100px;
+}
+
+.fa-list-alt:before {
+	content: "\f022";
+	font-size: 100px;
+}
+
+.fa-list-ul:before {
+	content: "\f0ca";
+	font-size: 100px;
+}
+
+.fa-sign-out-alt:before {
+	content: "\f2f5";
+	font-size: 30px;
+}
+
+.fa-check-square:before {
+	content: "\f14a";
+	font-size: 100px;
+}
+
+.social-box {
+	margin: 50px 0px 55px 0;
+}
+</style>
+
+
+
+<title>Home</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-light bg-light">
+		<a class="navbar-brand" href="#"> <img
+			src="https://img2.gratispng.com/20181201/aph/kisspng-portable-network-graphics-vector-graphics-customer-5c033c289a6bf4.9912322615437158806325.jpg"
+			width="50" alt="" loading="lazy">
+		</a>
+		<h3 th:text="|Usuário logado: ${session.usuarioLogado.nome}|"></h3>
+		<a href="/logout"><i class="fas fa-sign-out-alt"></i></a>
+	</nav>
+
+
+
+	<div class="social-box">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4 col-xs-12 text-center">
+					<div class="box">
+						<i class="fas fa-address-card"></i>
+						<div class="box-title">
+							<h3>Cadastro de Candidato</h3>
+						</div>
+						<div class="box-btn">
+							<a href="/usuario/cadCandidato" class="btn btn-primary">Cadastrar</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-xs-12  text-center">
+					<div class="box">
+						<i class="far fa-address-card" aria-hidden="true"></i>
+						<div class="box-title">
+							<h3>Cadastro de Eleitor</h3>
+						</div>
+						<div class="box-btn">
+							<a href="/usuario/cadEleitor" class="btn btn-primary">Cadastrar</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-xs-12 text-center">
+					<div class="box">
+						<i class="far fa-check-square" aria-hidden="true"></i>
+						<div class="box-title">
+							<h3>Votar</h3>
+						</div>
+						<div class="box-btn">
+							<a href="/usuario/votacao" class="btn btn-primary">Votar</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-xs-12 text-center">
+					<div class="box">
+						<i class="fas fa-list-alt" aria-hidden="true"></i>
+						<div class="box-title">
+							<h3>Lista de Candidatos</h3>
+						</div>
+						<div class="box-btn">
+							<a href="/usuario/listCandidatos" class="btn btn-primary">Exibir</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-xs-12 text-center">
+					<div class="box">
+						<i class="far fa-list-alt" aria-hidden="true"></i>
+						<div class="box-title">
+							<h3>Lista de Eleitores</h3>
+						</div>
+						<div class="box-btn">
+							<a href="/usuario/listEleitor" class="btn btn-primary">Exibir</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-xs-12 text-center">
+					<div class="box">
+						<i class="fas fa-list-ul" aria-hidden="true"></i>
+						<div class="box-title">
+							<h3>Lista de Votos</h3>
+						</div>
+						<div class="box-btn">
+							<a href="/usuario/listagemVotos" class="btn btn-primary">Exibir</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-footer">
+		<footer id="sticky-footer" class="py-5 bg-dark text-white-50">
+			<div class="container-flex text-center text-white bg-dark">
+				<small>Copyright &copy; 2020 Eleição de Condomínio - By
+					Laila Roberta</small>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>

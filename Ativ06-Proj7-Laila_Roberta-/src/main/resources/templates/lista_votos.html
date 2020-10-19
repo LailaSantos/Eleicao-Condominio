@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Bootsrap 4 CDN-->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+
+<!--Fontawesome CDN-->
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+	integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	crossorigin="anonymous">
+
+<title>Lista de votos</title>
+</head>
+
+<style>
+body {
+	background: #c8e4f4;
+}
+
+.fa-arrow-left:before {
+	content: "\f060";
+	font-size: 20px;
+	color: black;
+}
+
+.list-voto {
+	background: white;
+	margin: 20px;
+}
+</style>
+<body>
+
+	<div class="list-voto">
+		<table class="table table-hover table-bordered table-striped">
+			<thead>
+				<tr>
+					<th scope="col">Nome Eleitor</th>
+					<th scope="col">Votou em</th>
+					<th scope="col">Nome Candidato</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="vot: ${votos}">
+					<td th:text="${vot.eleitor.nomeEleitor}"></td>
+					<td><i class="fas fa-user-check"></i></td>
+					<td th:text="${vot.candidato.nomeCandidato}"></td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+			<a href="/usuario/menu"><i class="fas fa-arrow-left"></i></a>
+		</div>
+	</div>
+</body>
+</html>
