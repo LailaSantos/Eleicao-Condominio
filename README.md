@@ -1,5 +1,5 @@
 
-## Eleição de Condomínio
+## Eleição de Condomínio 📚✔️
 Esse é o projeto final da matéria de web 3, ele funcionou e ficou bem bonitinho, resolvi colocar aqui...
 
 ## Tecnologias usadas :rocket: 
@@ -10,8 +10,9 @@ Esse é o projeto final da matéria de web 3, ele funcionou e ficou bem bonitinh
 - Spring MVC
 - Thymeleaf
 - Bootstrap
+- Bootsnipp
 
-- E outras coisas do Java, não sou muito fã, mas foi isso... 
+- Foi o pacote todo das coisas do Java, não sou muito fã de Java, foi isso, daí usei o bootstrap e bootsnipp. 
 
 ## Pra rodar :sparkles:
 
@@ -21,9 +22,7 @@ Você só tem que baixar o projeto, e abrir no seu STS, daí você atualiza o ap
 
 Tô trabalhando nessa parte de colocar no heroku, rlx que vai sair kkk 
 
-### É issooo... :octocat:
-
-###### Obs: Foi o pacote todo das coisas do Java, eu coloquei o bootstrap na mesma página do html porque não funcionou separado, ainda vou olhar isso... 
+#### Obs: Eu coloquei o bootstrap na mesma página do html porque não funcionou separado, vou olhar isso ainda... ✔️
 
 ####  Feito com :purple_heart:  by - Laila Roberta :v:.
 
