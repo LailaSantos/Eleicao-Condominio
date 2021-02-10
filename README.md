@@ -16,7 +16,7 @@ Esse é o projeto final da matéria de web 3, ele funcionou e ficou bem bonitinh
 
 ## Pra rodar :sparkles:
 
-Você tem que baixar o projeto e abrir no seu STS, daí você atualiza o application.properties e configura seu user e sua senha do seu banco de dados, eu usei o MySQL pelo Xampp, depois disso você roda o projeto e abre na porta que você escolheu, minha porta foi essa `http://localhost:8090` e tudo certo.
+Você tem que baixar o projeto e abrir no seu STS(Spring Tool Suite), daí você atualiza o application.properties e configura seu user e sua senha do seu banco de dados, eu usei o MySQL pelo Xampp, depois disso você roda o projeto e abre na porta que você escolheu, minha porta foi essa `http://localhost:8090` e tudo certo.
 
 ### Aqui tem o link do Heroku
 
