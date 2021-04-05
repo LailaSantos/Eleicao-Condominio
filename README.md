@@ -20,9 +20,9 @@ Você tem que baixar o projeto e abrir no seu STS(Spring Tool Suite), daí você
 
 ### Aqui tem o link do Heroku
 
-Tô trabalhando nessa parte de colocar no heroku, rlx que vai sair kkk.(Só preciso do build dele, vai demorar um pouco.)
+Tô trabalhando nessa parte de colocar no heroku, rlx que vai sair kkk. (Em andamento)
 
-### Imagens do layout - em andamento
+### Imagens do layout - (Em andamento)
 
 #### Obs: Eu coloquei o bootstrap na mesma página do html porque não funcionou separado, vou olhar isso ainda... ✔️
 
