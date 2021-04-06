@@ -64,7 +64,6 @@ Tô trabalhando nessa parte de colocar no heroku, rlx que vai sair kkk. (Em anda
 
 ![Screenshot_20210330-155746~2](https://user-images.githubusercontent.com/43499912/113642452-42fa8400-9656-11eb-99de-b03edeef83db.png)
 
-
 #### Obs: Eu coloquei o bootstrap na mesma página do html porque não funcionou separado, vou olhar isso ainda... ✔️
 
 ####  Feito com :purple_heart:  by - Laila Roberta :v:.
